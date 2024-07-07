@@ -1,0 +1,20 @@
+.custom-nav .custom-nav-item a{
+    color:aliceblue;
+  }
+
+
+  .custom-nav-item:hover
+  {
+  background-color: #d54400;
+  border:solid #d54400 1px;
+  border-radius: 5px;
+  
+  }
+  
+  .custom-navbar-item:hover
+  {
+  background-color: #7468c8;
+  border:solid #7468c8 1px;
+  border-radius: 5px;
+  
+  }
