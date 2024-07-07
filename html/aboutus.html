@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+.navbar-brand img{
+    height: 57px;
+    width: 155px;
+  }
+  .custom-nav-item:hover
+{
+background-color: #d54400;
+border:solid #d54400 1px;
+border-radius: 5px;
+
+}
+
+.custom-navbar-item:hover
+{
+background-color: #7468c8;
+border:solid #7468c8 1px;
+border-radius: 5px;
+}
+
+.navbar-nav{
+  margin-left: 90px;
+}
+
+
+
+
+
+.our-team {
+  padding: 30px 0 40px;
+  margin-bottom: 30px;
+  background-color: #f7f5ec;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  height: 435px;
+}
+
+.our-team .picture {
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.our-team .picture::before {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #1369ce;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+.our-team:hover .picture::before {
+  height: 100%;
+}
+
+.our-team .picture::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #1369ce;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.our-team .picture img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+  height: 130px;
+}
+
+.our-team:hover .picture img {
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+}
+
+.our-team .title {
+  display: block;
+  font-size: 15px;
+  color: #4e5052;
+  text-transform: capitalize;
+}
+
+.our-team .social {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #1369ce;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .social {
+  bottom: 0;
+}
+
+.our-team .social li {
+  display: inline-block;
+}
+
+.our-team .social li a {
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.our-team .social li a:hover {
+  color: #1369ce;
+  background-color: #f7f5ec;
+}
+
+.container-card{
+  max-width: 1027px;
+  margin-left:  388px;
+}
+
+.row1{
+
+  width: 883px;
+}
+.font{
+font-family: 'oswald' ;
+font-weight: bold;
+}
+p{
+  font-weight: bold;
+}
+    </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/aboutus.css">
+</head>
+  <body style="background-color: aqua;" >
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: black;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html"><img src="images/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar pl-5"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav custom-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="bmi.html">BMI</a>
+          </li>
+          <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="facilities.html">Facilities</a>
+          </li>
+          <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="membership.html">Membership Plans</a>
+          </li>
+          <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="testimonials.html">Testimonials</a>
+          </li>
+          <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="contactus.html">Contact Us</a>
+          </li>
+</div>
+  </nav>
+
+ 
+  
+<br><br><br><br><br>
+  <header>
+    <h1>FITCLUB GYM</h1>
+  </header>
+
+  <div class="container">
+    <section class="about">
+      <h2 class="font"> <center><u>WELCOME TO OUR GYM</u></center></h2><br>
+      <P>Established in 2024, FitClub Gym stands as a beacon of health and wellness in the community, committed to empowering individuals on their fitness journeys. With a vision to redefine the gym experience, FitClub Gym offers state-of-the-art facilities, expert guidance, and a supportive community atmosphere.</P>
+      <p>We are committed to helping you achieve your fitness goals. Our state-of-the-art facilities, experienced trainers, and variety of classes make us the perfect choice for anyone looking to improve their health and well-being.</p>
+      <p>At Our Gym, we believe in creating a supportive and motivating environment where everyone feels welcome and encouraged to reach their full potential.</p>
+      <p>Whether you're a beginner or a seasoned athlete, we have something for you. Join us today and start your journey to a healthier lifestyle!</p>
+    </section>
+<section class="team">
+      <h2 class="font"><u><center>Meet Our Trainers</center></u></h2>
+    </section>
+  </div>
+
+
+
+
+  <div class="container-card">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 row1">
+        <div class="our-team">
+          <div class="picture">
+            <img class="img-fluid" src="images/Personal Trainer.jpg">
+          </div>
+          <div class="team-content">
+            <h3 class="name">ABHIJEET PATEL</h3>
+            <h4 class="title">With over 10 years of experience in personal training, Abhijeet is dedicated to helping clients achieve their fitness goals through personalized workout plans and nutritional guidance.</h4>
+          </div>
+        </div>
+      </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3  row1">
+        <div class="our-team">
+          <div class="picture">
+            <img class="img-fluid" src="images/yoga.jpg">
+          </div>
+          <div class="team-content">
+            <h3 class="name">NATASHA SHARMA</h3>
+            <h4 class="title">Natasha is a certified yoga instructor and group fitness coach. Her passion for health and wellness shines through in her energetic classes and commitment to helping others lead balanced lives.</h4>
+          </div>
+        </div>
+      </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3  row1">
+        <div class="our-team">
+          <div class="picture">
+            <img class="img-fluid" src="images/zumba.jpg">
+          </div>
+          <div class="team-content">
+            <h3 class="name">TEJAL DAVE</h3>
+            <h4 class="title">Tejal is a certified Zumba instructor with a love for dance and fitness. She brings her infectious energy to every class, ensuring you have a blast while getting fit!</h4>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

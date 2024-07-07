@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+  body  {
+    font-family: 'Segoe UI', Tahoma, Verdana;
+    
+    background-color: #ebf8ff;
+}
+
+h2 {
+    color: #0f0f0f;
+    text-align: center;
+}
+
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.review-card {
+    background-color: violet;
+    box-shadow: 0 4px 8px rgba(22, 21, 21, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    max-width: 100%;
+    transition: transform 0.3s;
+    padding:6px;
+}
+
+.review-card:hover {
+    transform: scale(1.05);
+}
+
+.review-content {
+    padding: 15px;
+}
+
+.customer-name {
+    font-weight: bold;
+    color: #0b0a0a;
+}
+
+.feedback-text {
+    margin-top: 10px;
+    color: #110f0f;
+}
+
+.rating{
+    color:#FFD700;
+    margin-bottom:5px;
+    font-size: 30px;
+}
+
+img {
+  padding-left: 70px;
+  display: block;
+    border: 0;
+    width: auto;
+    height: 170px;
+}
+.navbar-brand img{
+    height: 57px;
+    width: 219px;
+    margin-left: -47px;
+  }
+  .custom-nav-item:hover
+{
+background-color: #d54400;
+border:solid #d54400 1px;
+border-radius: 5px;
+
+}
+
+.custom-navbar-item:hover
+{
+background-color: #7468c8;
+border:solid #7468c8 1px;
+border-radius: 5px;
+}
+
+.navbar-nav{
+  margin-left: 90px;
+}
+    </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/card.css">
+</head>
+  <body style="background-color: aqua;">
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: black;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html"><img src="images/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar pl-5"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav custom-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="bmi.html">BMI</a>
+          </li>
+          <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="facilities.html">Facilities</a>
+          </li>
+          <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="membership.html">Membership Plans</a>
+          </li>
+          <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="testimonials.html">Testimonials</a>
+          </li>
+          <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="contactus.html">Contact Us</a>
+          </li>
+</div>
+  </nav>
+
+  
+  
+  <br><br><br><br><br>
+  
+  
+  <div class='reviews-container'>
+    <div class='review-card'>
+        <div class='review-content'>
+          <div class="text-center">
+            <p class='customer-name'><b>ISHAAN THAKKAR</b></p></div>
+            <div class="rating"><center>&#9733;&#9733;&#9733;&#9733;&#9733;</center></div>
+            <p class='feedback-text'>"FitClub Gym has truly changed my life! From the moment I stepped foot inside, I felt welcomed by the friendly staff and motivated by the energetic atmosphere. The variety of classes and state-of-the-art equipment have helped me achieve my fitness goals faster than I ever imagined. I can't recommend FitClub enough!"</p>
+        </div>
+    </div>
+  
+  
+    <div class='review-card'>
+        <div class='review-content'>
+          <div class="text-center">
+            <p class='customer-name'><b>ANANYA DESAI</b></p></div>
+            <div class="rating"><center>&#9733;&#9733;&#9733;&#9733;&#9734;</center></div>
+            <p class='feedback-text'>"Joining FitClub Gym was one of the best decisions I've ever made for my health. The trainers are incredibly knowledgeable and supportive, always pushing me to reach new heights. Plus, the gym is always clean and well-maintained, creating a comfortable environment to focus on my workouts. Thank you, FitClub, for helping me become the best version of myself!"</p>
+        </div>
+    </div>
+  
+  
+    <div class='review-card'>
+        <div class='review-content'>
+          <div class="text-center">
+            <p class='customer-name'><b>AKHILESH SHARMA</b></p></div>
+            <div class="rating"><center>&#9733;&#9733;&#9733;&#9733;&#9733;</center></div>
+            <p class='feedback-text'>"As someone who's struggled with consistency in the past, FitClub Gym has been a game-changer for me. The personalized training plans and accountability from the staff have kept me on track, and I've seen amazing results because of it. Whether you're a beginner or a seasoned athlete, FitClub has everything you need to succeed on your fitness journey."</p>
+        </div>
+    </div>
+  
+  
+  <div class='review-card'>
+  <div class='review-content'>
+    <div class="text-center">
+  <p class='customer-name'><b>DEVIKA RAJPUT</b></p></div>
+  <div class="rating"><center>&#9733;&#9733;&#9733;&#9733;&#9733;</center></div>
+  <p class='feedback-text'>"FitClub Gym isn't just a place to work out – it's a lifestyle. From nutrition guidance to group challenges, they go above and beyond to help you achieve your goals and live your healthiest life. I've never felt more empowered or confident in my fitness journey, and I owe it all to the amazing team at FitClub. Trust me, once you join, you'll never want to leave!"</p>
+  </div>
+  </div>
+
+  <div class='review-card'>
+    <div class='review-content'>
+      <div class="text-center">
+        <p class='customer-name'><b>PRATIK RANKA</b></p></div>
+        <div class="rating"><center>&#9733;&#9733;&#9733;&#9733;&#9734;</center></div>
+        <p class='feedback-text'>"FitClub Gym has been a game-changer for me. After years of struggling to stick to a consistent workout routine, I finally found my groove at FitClub. The variety of classes offered keeps me motivated and engaged, while the supportive atmosphere pushes me to challenge myself in ways."</p>
+</div>
+</div>
+
+<div class='review-card'>
+    <div class='review-content'>
+      <div class="text-center">
+        <p class='customer-name'><b>SHREYA AGARWAL</b></p></div>
+        <div class="rating"><center>&#9733;&#9733;&#9733;&#9733;&#9733;</center></div>
+        <p class='feedback-text'>"FitClub Gym has been instrumental in helping me achieve my fitness goals. The trainers are experts in their field, offering valuable advice and encouragement every step of the way. The variety of classes keeps things interesting and challenging, ensuring I never get bored with my workout routine."</p>
+</div>
+</div>
+
+<div class='review-card'>
+    <div class='review-content'>
+      <div class="text-center">
+        <p class='customer-name'><b>MANIT KAUR</b></p></div>
+        <div class="rating"><center>&#9733;&#9733;&#9733;&#9733;&#9733;</center></div>
+        <p class='feedback-text'>"I've tried numerous gyms in the past, but none compare to FitClub. The facility is clean, spacious, and well-equipped, creating the perfect environment for a productive workout. The trainers go above and beyond to ensure you're getting the most out of your sessions, pushing you to reach new limits while still prioritizing safety."</p>
+    </div>
+</div>
+
+
+<div class='review-card'>
+<div class='review-content'>
+<div class="text-center">
+<p class='customer-name'><b>KAJAL OZA</b></p></div>
+<div class="rating"><center>&#9733;&#9733;&#9733;&#9733;&#9734;</center></div>
+<p class='feedback-text'>"I've been a member of FitClub for over a year now, and I can confidently say it's the best gym I've ever been to. The facilities are top-notch, with state-of-the-art equipment and clean, well-maintained spaces. What sets FitClub apart, though, is the sense of community."</p>
+</div>
+  </div>
+</div>
+<br><br><br>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

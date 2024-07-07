@@ -1,0 +1,187 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/home.css"> 
+  <style>
+  .navbar-brand img{
+    height: 57px;
+    width: 155px;
+  }
+
+  
+* {
+  box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+  background-color: blueviolet;
+  color: white;
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #dee2e6;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.white{
+  background-color: #eee;
+}
+.custom-nav-item:hover
+{
+background-color: #d54400;
+border:solid #d54400 1px;
+border-radius: 5px;
+
+}
+
+.custom-navbar-item:hover
+{
+background-color: #7468c8;
+border:solid #7468c8 1px;
+border-radius: 5px;
+}
+
+.navbar-nav{
+  margin-left: 90px;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+  </style>
+  </head>
+  <body style="background-color: aqua;">
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: black;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html"><img src="images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar pl-5"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav custom-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="bmi.html">BMI</a>
+            </li>
+            <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="facilities.html">Facilities</a>
+            </li>
+            <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="membership.html">Membership Plans</a>
+            </li>
+            <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="testimonials.html">Testimonials</a>
+            </li>
+            <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item custom-nav-item pl-3 pr-3"><a class="nav-link active" aria-current="page" href="contactus.html">Contact Us</a>
+            </li>
+  </div>
+    </nav>
+  
+
+      <br><br><br>
+      <br><br>
+
+      <div class="columns">
+        <ul class="price">
+          <li class="header">GYM</li>
+          <li class="grey">Access to gym equipment</li>
+          <li class="grey">Personal Trainer available</li>
+          <li class="white">Monthly fee: 2000</li>
+          <li class="white">Quarterly fee: 5000</li>
+          <li class="white">Semi Annually fee: 10000</li>
+          <li class="white">Annual fee: 15000</li>
+          <li class="grey"><a href="payment.html" class="button">ENROLL NOW</a></li>
+        </ul>
+       </div>
+
+       <div class="columns">
+        <ul class="price">
+          <li class="header">YOGA</li>
+          <li class="grey">Beginner to advanced levels</li>
+          <li class="grey">Flexible class timings</li>
+          <li class="white">Monthly fee: 1000</li>
+          <li class="white">Quarterly fee: 2500</li>
+          <li class="white">Semi Annually fee: 5000</li>
+          <li class="white">Annual fee: 10000</li>
+          <li class="grey"><a href="payment.html" class="button">ENROLL NOW</a></li>
+        </ul>
+       </div>
+
+       <div class="columns">
+        <ul class="price">
+          <li class="header">ZUMBA</li>
+          <li class="grey">High-energy workouts</li>
+          <li class="grey">Group classes</li>
+          <li class="white">Monthly fee: 1500</li>
+          <li class="white">Quarterly fee: 4000</li>
+          <li class="white">Semi Annually fee: 8000</li>
+          <li class="white">Annual fee: 17000</li>
+          <li class="grey"><a href="payment.html" class="button">ENROLL NOW</a></li>
+        </ul>
+       </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
